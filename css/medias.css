@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+/*? Main Menu Medias */
+
+/* 
+  ##Cihaz = Masaüstü
+  ##Ekran = 1281px 'den yüksek çözünürlükler için
+*/
+
+@media (max-width: 1281px) {
+  .main-menu {
+    margin-left: 13.5rem;
+  }
+}
+
+/* 
+  ##Cihaz = Laptoplar, Masaüstü
+  ##Ekran = 1025px to 1280px Arası Ekranlar
+*/
+
+@media (max-width: 1222px) {
+  .main-menu {
+    width: 20rem;
+  }
+  #header {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 1060px) {
+  .main-menu {
+    width: 10rem;
+  }
+  #header {
+    font-size: 1.7rem;
+    margin-left: 11rem;
+  }
+}
+
+@media (max-width: 968px) {
+  .main-menu {
+    width: 5rem;
+  }
+  #header {
+    font-size: 1.5rem;
+    margin-left: 15.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-menu {
+    width: 0rem;
+  }
+  #header {
+    font-size: 1.3rem;
+    margin-left: 20rem;
+  }
+}
+
+@media (max-width: 822px) {
+  .main-menu {
+    width: 0rem;
+    z-index: 1;
+    margin-left: 20rem;
+  }
+  #header {
+    font-size: 1.5rem;
+    top: 3rem;
+    position: relative;
+    right: 9rem;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-menu {
+    width: 0rem;
+    z-index: 1;
+    position: relative;
+    left: 7rem;
+  }
+  #header {
+    font-size: 1.3rem;
+    top: -20rem;
+    position: relative;
+    right: 50rem;
+    z-index: 2;
+    right: 19rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 702px) {
+  .main-menu {
+    left: 9rem;
+  }
+  .editor-block {
+    width: 29rem;
+  }
+}
+
+@media (max-width: 624px) {
+  .main-menu {
+    left: 12rem;
+  }
+  .editor-block {
+    width: 22rem;
+  }
+
+  #header {
+    right: 19rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #header {
+    font-size: 1.5rem;
+    right: 19.44rem;
+  }
+
+  .main-menu {
+    left: 10rem;
+  }
+  .editor-block {
+    width: 19rem;
+  }
+}
+
+/*? Prices Menu Medias */
+
+@media (max-width: 1184px) {
+  .fiyat {
+    width: 50rem;
+  }
+
+  .fiyat {
+    width: 500rem;
+  }
+  #fiyat1 {
+    margin-right: 2rem;
+  }
+  #fiyat2 {
+    margin-right: 2rem;
+  }
+
+  .fiyat ul li {
+    font-size: 1.3rem;
+  }
+
+  .fiyat h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1008px) {
+  .container {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .fiyat {
+    margin: 0;
+    padding: 0;
+    width: 27rem;
+    height: 100rem;
+    margin-left: 2rem;
+  }
+
+  #fiyat2 {
+    margin-top: 5rem;
+    margin-left: 2rem;
+  }
+
+  #fiyat3 {
+    margin-top: 5rem;
+    margin-bottom: 50rem;
+    margin-right: 2rem;
+  }
+
+  .hakkimda {
+    margin-bottom: 70rem;
+  }
+
+  #prices {
+    position: relative;
+    bottom: 60rem;
+    margin-bottom: 5rem;
+  }
+
+  .satinAlBtn {
+    position: relative;
+    top: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .hakkimda {
+    position: relative;
+    right: 1rem;
+  }
+}

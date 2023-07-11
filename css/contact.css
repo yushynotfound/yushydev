@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+* {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+  color: #fff;
+  background-color: #161616;
+}
+
+p {
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.btnIletisim a {
+  font-size: 25px;
+  font-weight: bold;
+  background: rgb(148, 71, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(148, 71, 86, 1) 0%,
+    rgba(224, 55, 87, 1) 39%,
+    rgba(241, 57, 92, 1) 100%
+  );
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  padding-top: 16px;
+  padding-bottom: 19px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.btnIletisim {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.mainIletisim {
+  position: relative;
+  top: 12rem;
+}
+
+span a {
+  font-size: 2rem;
+  position: relative;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  top: 2rem;
+  left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}

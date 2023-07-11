@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+@keyframes typing-1 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 60px;
+  }
+}
+
+@keyframes typing-2 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 220px;
+  }
+}
+
+@keyframes typing-3 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 70px;
+  }
+}
+
+@keyframes typing-4 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 75px;
+  }
+}
+
+@keyframes typing-5 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 141px;
+  }
+}
+
+@keyframes cursor {
+  from,
+  to,
+  20%,
+  75% {
+    border-color: transparent;
+  }
+
+  25%,
+  50% {
+    border-color: white;
+  }
+}
+
+@keyframes cursor-persist {
+  from,
+  45% {
+    border-color: transparent;
+  }
+
+  50%,
+  to {
+    border-color: white;
+  }
+}
